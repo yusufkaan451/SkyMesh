@@ -9,7 +9,7 @@ def capture_image(destination_path):
         return
 
     # Kamerayı aç (varsayılan cihaz: /dev/video0)
-    cap = cv2.VideoCapture(0)
+    cap = cv2.VideoCapture(19)
     if not cap.isOpened():
         print("Kameraya erişilemiyor!")
         return
